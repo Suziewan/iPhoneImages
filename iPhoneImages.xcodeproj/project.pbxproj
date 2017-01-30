@@ -13,6 +13,7 @@
 		6718D4711E3FA73A00E37C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718D46F1E3FA73A00E37C0A /* Main.storyboard */; };
 		6718D4731E3FA73A00E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6718D4721E3FA73A00E37C0A /* Assets.xcassets */; };
 		6718D4761E3FA73A00E37C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6718D4741E3FA73A00E37C0A /* LaunchScreen.storyboard */; };
+		6718D4821E3FB6E900E37C0A /* iPhoneImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6718D4811E3FB6E900E37C0A /* iPhoneImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6718D4721E3FA73A00E37C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6718D4751E3FA73A00E37C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6718D4771E3FA73A00E37C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6718D4801E3FB6E900E37C0A /* iPhoneImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneImageView.h; sourceTree = "<group>"; };
+		6718D4811E3FB6E900E37C0A /* iPhoneImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,10 @@
 		6718D4651E3FA73A00E37C0A /* iPhoneImages */ = {
 			isa = PBXGroup;
 			children = (
-				6718D4691E3FA73A00E37C0A /* AppDelegate.h */,
-				6718D46A1E3FA73A00E37C0A /* AppDelegate.m */,
 				6718D46C1E3FA73A00E37C0A /* ViewController.h */,
 				6718D46D1E3FA73A00E37C0A /* ViewController.m */,
+				6718D4801E3FB6E900E37C0A /* iPhoneImageView.h */,
+				6718D4811E3FB6E900E37C0A /* iPhoneImageView.m */,
 				6718D46F1E3FA73A00E37C0A /* Main.storyboard */,
 				6718D4721E3FA73A00E37C0A /* Assets.xcassets */,
 				6718D4741E3FA73A00E37C0A /* LaunchScreen.storyboard */,
@@ -74,6 +77,8 @@
 		6718D4661E3FA73A00E37C0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6718D4691E3FA73A00E37C0A /* AppDelegate.h */,
+				6718D46A1E3FA73A00E37C0A /* AppDelegate.m */,
 				6718D4671E3FA73A00E37C0A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6718D46E1E3FA73A00E37C0A /* ViewController.m in Sources */,
+				6718D4821E3FB6E900E37C0A /* iPhoneImageView.m in Sources */,
 				6718D46B1E3FA73A00E37C0A /* AppDelegate.m in Sources */,
 				6718D4681E3FA73A00E37C0A /* main.m in Sources */,
 			);
